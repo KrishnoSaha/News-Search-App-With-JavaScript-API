@@ -50,10 +50,37 @@ nav{
     color: white;
 }
 .blogs{
-    margin-top: 20px;
+    padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.blog-card{
+    width: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 1rem;
+    margin: 1rem;
+}
+.blog-card:hover{
+    box-shadow: 4px 4px 10px rgb(0, 0, 0, .5);
 
+}
+.blog-card img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+.blog-card h2{
+    color: #141414;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.blog-card p{
+    font-size: 1.2rem;
+    padding-top: .5rem;
 }
